@@ -1,0 +1,800 @@
+2025-03-07 07:21:31.092066: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-03-07 07:21:31.103773: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-03-07 07:21:31.116184: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-03-07 07:21:31.120006: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-03-07 07:21:31.129059: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-03-07 07:21:31.867243: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Running training for seed:  0
+action taken in this episode: 289
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 1 - Action Counts per Satellite:
+  Satellite0:
+    0: 60 times
+    1: 52 times
+    2: 68 times
+    3: 62 times
+    4: 47 times
+  Satellite1:
+    0: 66 times
+    1: 35 times
+    2: 65 times
+    3: 72 times
+    4: 51 times
+Episode 1 - Avg Score: 20.9
+action taken in this episode: 301
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 2 - Action Counts per Satellite:
+  Satellite0:
+    0: 62 times
+    1: 49 times
+    2: 73 times
+    3: 53 times
+    4: 64 times
+  Satellite1:
+    0: 72 times
+    1: 42 times
+    2: 65 times
+    3: 56 times
+    4: 66 times
+Episode 2 - Avg Score: 21.1
+action taken in this episode: 260
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 3 - Action Counts per Satellite:
+  Satellite0:
+    0: 53 times
+    1: 45 times
+    2: 63 times
+    3: 48 times
+    4: 51 times
+  Satellite1:
+    0: 57 times
+    1: 47 times
+    2: 50 times
+    3: 43 times
+    4: 63 times
+Episode 3 - Avg Score: 22.4
+action taken in this episode: 264
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 4 - Action Counts per Satellite:
+  Satellite0:
+    0: 56 times
+    1: 53 times
+    2: 43 times
+    3: 63 times
+    4: 49 times
+  Satellite1:
+    0: 68 times
+    1: 35 times
+    2: 68 times
+    3: 36 times
+    4: 57 times
+Episode 4 - Avg Score: 23.8
+action taken in this episode: 302
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 5 - Action Counts per Satellite:
+  Satellite0:
+    0: 64 times
+    1: 52 times
+    2: 66 times
+    3: 60 times
+    4: 60 times
+  Satellite1:
+    0: 72 times
+    1: 48 times
+    2: 54 times
+    3: 63 times
+    4: 65 times
+Episode 5 - Avg Score: 24.6
+action taken in this episode: 277
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 6 - Action Counts per Satellite:
+  Satellite0:
+    0: 62 times
+    1: 52 times
+    2: 60 times
+    3: 48 times
+    4: 55 times
+  Satellite1:
+    0: 67 times
+    1: 61 times
+    2: 39 times
+    3: 39 times
+    4: 71 times
+Episode 6 - Avg Score: 24.4
+action taken in this episode: 277
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 7 - Action Counts per Satellite:
+  Satellite0:
+    0: 62 times
+    1: 53 times
+    2: 65 times
+    3: 47 times
+    4: 50 times
+  Satellite1:
+    0: 61 times
+    1: 41 times
+    2: 52 times
+    3: 47 times
+    4: 76 times
+Episode 7 - Avg Score: 25.0
+action taken in this episode: 323
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 8 - Action Counts per Satellite:
+  Satellite0:
+    0: 56 times
+    1: 57 times
+    2: 70 times
+    3: 70 times
+    4: 70 times
+  Satellite1:
+    0: 82 times
+    1: 52 times
+    2: 45 times
+    3: 61 times
+    4: 83 times
+Episode 8 - Avg Score: 25.2
+action taken in this episode: 248
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 9 - Action Counts per Satellite:
+  Satellite0:
+    0: 55 times
+    1: 58 times
+    2: 54 times
+    3: 35 times
+    4: 46 times
+  Satellite1:
+    0: 51 times
+    1: 44 times
+    2: 51 times
+    3: 29 times
+    4: 73 times
+Episode 9 - Avg Score: 24.9
+action taken in this episode: 261
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 10 - Action Counts per Satellite:
+  Satellite0:
+    0: 58 times
+    1: 53 times
+    2: 50 times
+    3: 53 times
+    4: 47 times
+  Satellite1:
+    0: 63 times
+    1: 46 times
+    2: 46 times
+    3: 49 times
+    4: 57 times
+Episode 10 - Avg Score: 24.8
+action taken in this episode: 309
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 11 - Action Counts per Satellite:
+  Satellite0:
+    0: 63 times
+    1: 58 times
+    2: 62 times
+    3: 63 times
+    4: 63 times
+  Satellite1:
+    0: 69 times
+    1: 63 times
+    2: 69 times
+    3: 41 times
+    4: 67 times
+Episode 11 - Avg Score: 25.3
+action taken in this episode: 220
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 12 - Action Counts per Satellite:
+  Satellite0:
+    0: 39 times
+    1: 60 times
+    2: 50 times
+    3: 37 times
+    4: 34 times
+  Satellite1:
+    0: 48 times
+    1: 46 times
+    2: 47 times
+    3: 34 times
+    4: 45 times
+Episode 12 - Avg Score: 25.2
+action taken in this episode: 311
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 13 - Action Counts per Satellite:
+  Satellite0:
+    0: 58 times
+    1: 70 times
+    2: 66 times
+    3: 59 times
+    4: 58 times
+  Satellite1:
+    0: 68 times
+    1: 40 times
+    2: 63 times
+    3: 56 times
+    4: 84 times
+Episode 13 - Avg Score: 25.1
+action taken in this episode: 264
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 14 - Action Counts per Satellite:
+  Satellite0:
+    0: 56 times
+    1: 61 times
+    2: 60 times
+    3: 42 times
+    4: 45 times
+  Satellite1:
+    0: 61 times
+    1: 47 times
+    2: 46 times
+    3: 48 times
+    4: 62 times
+Episode 14 - Avg Score: 24.7
+action taken in this episode: 296
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 15 - Action Counts per Satellite:
+  Satellite0:
+    0: 49 times
+    1: 77 times
+    2: 62 times
+    3: 61 times
+    4: 47 times
+  Satellite1:
+    0: 76 times
+    1: 44 times
+    2: 56 times
+    3: 46 times
+    4: 74 times
+Episode 15 - Avg Score: 24.3
+action taken in this episode: 228
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 16 - Action Counts per Satellite:
+  Satellite0:
+    0: 35 times
+    1: 71 times
+    2: 36 times
+    3: 47 times
+    4: 39 times
+  Satellite1:
+    0: 51 times
+    1: 46 times
+    2: 43 times
+    3: 28 times
+    4: 60 times
+Episode 16 - Avg Score: 24.4
+action taken in this episode: 269
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 17 - Action Counts per Satellite:
+  Satellite0:
+    0: 41 times
+    1: 68 times
+    2: 54 times
+    3: 56 times
+    4: 50 times
+  Satellite1:
+    0: 59 times
+    1: 52 times
+    2: 48 times
+    3: 41 times
+    4: 69 times
+Episode 17 - Avg Score: 23.8
+action taken in this episode: 275
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 18 - Action Counts per Satellite:
+  Satellite0:
+    0: 48 times
+    1: 62 times
+    2: 55 times
+    3: 63 times
+    4: 47 times
+  Satellite1:
+    0: 72 times
+    1: 38 times
+    2: 46 times
+    3: 49 times
+    4: 70 times
+Episode 18 - Avg Score: 23.5
+action taken in this episode: 225
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 19 - Action Counts per Satellite:
+  Satellite0:
+    0: 45 times
+    1: 49 times
+    2: 35 times
+    3: 63 times
+    4: 33 times
+  Satellite1:
+    0: 55 times
+    1: 48 times
+    2: 32 times
+    3: 32 times
+    4: 58 times
+Episode 19 - Avg Score: 23.6
+action taken in this episode: 317
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 20 - Action Counts per Satellite:
+  Satellite0:
+    0: 50 times
+    1: 64 times
+    2: 58 times
+    3: 75 times
+    4: 70 times
+  Satellite1:
+    0: 72 times
+    1: 72 times
+    2: 41 times
+    3: 44 times
+    4: 88 times
+Episode 20 - Avg Score: 23.6
+action taken in this episode: 269
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 21 - Action Counts per Satellite:
+  Satellite0:
+    0: 51 times
+    1: 51 times
+    2: 56 times
+    3: 63 times
+    4: 48 times
+  Satellite1:
+    0: 59 times
+    1: 64 times
+    2: 36 times
+    3: 33 times
+    4: 77 times
+Episode 21 - Avg Score: 23.4
+action taken in this episode: 263
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 22 - Action Counts per Satellite:
+  Satellite0:
+    0: 48 times
+    1: 56 times
+    2: 44 times
+    3: 70 times
+    4: 45 times
+  Satellite1:
+    0: 52 times
+    1: 59 times
+    2: 34 times
+    3: 36 times
+    4: 82 times
+Episode 22 - Avg Score: 23.9
+action taken in this episode: 321
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 23 - Action Counts per Satellite:
+  Satellite0:
+    0: 59 times
+    1: 43 times
+    2: 69 times
+    3: 75 times
+    4: 75 times
+  Satellite1:
+    0: 87 times
+    1: 57 times
+    2: 45 times
+    3: 38 times
+    4: 94 times
+Episode 23 - Avg Score: 24.2
+action taken in this episode: 299
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 24 - Action Counts per Satellite:
+  Satellite0:
+    0: 53 times
+    1: 44 times
+    2: 70 times
+    3: 62 times
+    4: 70 times
+  Satellite1:
+    0: 85 times
+    1: 69 times
+    2: 34 times
+    3: 28 times
+    4: 83 times
+Episode 24 - Avg Score: 23.9
+action taken in this episode: 203
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 25 - Action Counts per Satellite:
+  Satellite0:
+    0: 38 times
+    1: 47 times
+    2: 30 times
+    3: 49 times
+    4: 39 times
+  Satellite1:
+    0: 53 times
+    1: 53 times
+    2: 23 times
+    3: 22 times
+    4: 52 times
+Episode 25 - Avg Score: 24.2
+action taken in this episode: 240
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 26 - Action Counts per Satellite:
+  Satellite0:
+    0: 34 times
+    1: 59 times
+    2: 48 times
+    3: 54 times
+    4: 45 times
+  Satellite1:
+    0: 59 times
+    1: 65 times
+    2: 30 times
+    3: 22 times
+    4: 64 times
+Episode 26 - Avg Score: 24.2
+action taken in this episode: 211
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 27 - Action Counts per Satellite:
+  Satellite0:
+    0: 28 times
+    1: 55 times
+    2: 33 times
+    3: 49 times
+    4: 46 times
+  Satellite1:
+    0: 66 times
+    1: 61 times
+    2: 17 times
+    3: 18 times
+    4: 49 times
+Episode 27 - Avg Score: 24.8
+action taken in this episode: 210
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 28 - Action Counts per Satellite:
+  Satellite0:
+    0: 32 times
+    1: 59 times
+    2: 33 times
+    3: 44 times
+    4: 42 times
+  Satellite1:
+    0: 59 times
+    1: 59 times
+    2: 23 times
+    3: 25 times
+    4: 44 times
+Episode 28 - Avg Score: 25.1
+action taken in this episode: 223
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 29 - Action Counts per Satellite:
+  Satellite0:
+    0: 31 times
+    1: 50 times
+    2: 39 times
+    3: 55 times
+    4: 48 times
+  Satellite1:
+    0: 62 times
+    1: 60 times
+    2: 24 times
+    3: 14 times
+    4: 63 times
+Episode 29 - Avg Score: 25.1
+action taken in this episode: 162
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 30 - Action Counts per Satellite:
+  Satellite0:
+    0: 22 times
+    1: 56 times
+    2: 16 times
+    3: 35 times
+    4: 33 times
+  Satellite1:
+    0: 51 times
+    1: 59 times
+    2: 13 times
+    3: 17 times
+    4: 22 times
+Episode 30 - Avg Score: 25.4
+action taken in this episode: 203
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 31 - Action Counts per Satellite:
+  Satellite0:
+    0: 42 times
+    1: 53 times
+    2: 29 times
+    3: 39 times
+    4: 40 times
+  Satellite1:
+    0: 66 times
+    1: 57 times
+    2: 22 times
+    3: 18 times
+    4: 40 times
+Episode 31 - Avg Score: 25.8
+action taken in this episode: 157
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 32 - Action Counts per Satellite:
+  Satellite0:
+    0: 37 times
+    1: 44 times
+    2: 19 times
+    3: 35 times
+    4: 22 times
+  Satellite1:
+    0: 45 times
+    1: 54 times
+    2: 19 times
+    3: 15 times
+    4: 24 times
+Episode 32 - Avg Score: 25.4
+action taken in this episode: 201
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 33 - Action Counts per Satellite:
+  Satellite0:
+    0: 29 times
+    1: 51 times
+    2: 25 times
+    3: 49 times
+    4: 47 times
+  Satellite1:
+    0: 51 times
+    1: 77 times
+    2: 17 times
+    3: 14 times
+    4: 42 times
+Episode 33 - Avg Score: 25.2
+action taken in this episode: 195
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 34 - Action Counts per Satellite:
+  Satellite0:
+    0: 30 times
+    1: 45 times
+    2: 26 times
+    3: 46 times
+    4: 48 times
+  Satellite1:
+    0: 68 times
+    1: 63 times
+    2: 21 times
+    3: 13 times
+    4: 30 times
+Episode 34 - Avg Score: 25.7
+action taken in this episode: 162
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 35 - Action Counts per Satellite:
+  Satellite0:
+    0: 29 times
+    1: 47 times
+    2: 17 times
+    3: 39 times
+    4: 30 times
+  Satellite1:
+    0: 56 times
+    1: 60 times
+    2: 10 times
+    3: 10 times
+    4: 26 times
+Episode 35 - Avg Score: 25.8
+action taken in this episode: 127
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 36 - Action Counts per Satellite:
+  Satellite0:
+    0: 20 times
+    1: 37 times
+    2: 16 times
+    3: 25 times
+    4: 29 times
+  Satellite1:
+    0: 38 times
+    1: 68 times
+    2: 5 times
+    3: 8 times
+    4: 8 times
+Episode 36 - Avg Score: 25.7
+action taken in this episode: 130
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 37 - Action Counts per Satellite:
+  Satellite0:
+    0: 21 times
+    1: 39 times
+    2: 16 times
+    3: 38 times
+    4: 16 times
+  Satellite1:
+    0: 40 times
+    1: 60 times
+    2: 13 times
+    3: 4 times
+    4: 13 times
+Episode 37 - Avg Score: 25.4
+action taken in this episode: 145
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 38 - Action Counts per Satellite:
+  Satellite0:
+    0: 36 times
+    1: 40 times
+    2: 17 times
+    3: 30 times
+    4: 22 times
+  Satellite1:
+    0: 55 times
+    1: 61 times
+    2: 4 times
+    3: 4 times
+    4: 21 times
+Episode 38 - Avg Score: 25.4
+action taken in this episode: 128
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 39 - Action Counts per Satellite:
+  Satellite0:
+    0: 24 times
+    1: 45 times
+    2: 20 times
+    3: 18 times
+    4: 21 times
+  Satellite1:
+    0: 44 times
+    1: 59 times
+    2: 6 times
+    3: 7 times
+    4: 12 times
+Episode 39 - Avg Score: 25.6
+action taken in this episode: 128
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 40 - Action Counts per Satellite:
+  Satellite0:
+    0: 23 times
+    1: 47 times
+    2: 12 times
+    3: 31 times
+    4: 15 times
+  Satellite1:
+    0: 38 times
+    1: 65 times
+    2: 9 times
+    3: 8 times
+    4: 8 times
+Episode 40 - Avg Score: 25.2
+action taken in this episode: 140
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 41 - Action Counts per Satellite:
+  Satellite0:
+    0: 19 times
+    1: 48 times
+    2: 23 times
+    3: 23 times
+    4: 27 times
+  Satellite1:
+    0: 61 times
+    1: 52 times
+    2: 7 times
+    3: 6 times
+    4: 14 times
+Episode 41 - Avg Score: 25.1
+action taken in this episode: 132
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 42 - Action Counts per Satellite:
+  Satellite0:
+    0: 27 times
+    1: 38 times
+    2: 17 times
+    3: 26 times
+    4: 24 times
+  Satellite1:
+    0: 36 times
+    1: 67 times
+    2: 11 times
+    3: 6 times
+    4: 12 times
+Episode 42 - Avg Score: 25.3
+action taken in this episode: 122
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 43 - Action Counts per Satellite:
+  Satellite0:
+    0: 22 times
+    1: 41 times
+    2: 10 times
+    3: 21 times
+    4: 28 times
+  Satellite1:
+    0: 32 times
+    1: 59 times
+    2: 10 times
+    3: 6 times
+    4: 15 times
+Episode 43 - Avg Score: 25.0
+action taken in this episode: 134
+epsiode length / terminate: 1.0
+Satellite0/Battery Total Charged Amount: 0
+Satellite1/Battery Total Charged Amount: 0
+Episode 44 - Action Counts per Satellite:
+  Satellite0:
+    0: 23 times
+    1: 42 times
+    2: 17 times
+    3: 21 times
+    4: 31 times
+  Satellite1:
+    0: 39 times
+    1: 68 times
+    2: 6 times
+    3: 5 times
+    4: 16 times
+Episode 44 - Avg Score: 24.5

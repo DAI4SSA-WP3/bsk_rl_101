@@ -1,0 +1,24 @@
+*vertices 10
+1 "Environment (SMAC, MPE, etc.)" 0.0 0.0 ellipse
+2 "Environment Wrapper" 0.0 0.0 ellipse
+3 "Runner (Training Loop)" 0.0 0.0 ellipse
+4 "Policy Network (Actor)" 0.0 0.0 ellipse
+5 "Value Network (Critic)" 0.0 0.0 ellipse
+6 "Replay Buffer" 0.0 0.0 ellipse
+7 "Advantage Estimation" 0.0 0.0 ellipse
+8 "PPO Optimization" 0.0 0.0 ellipse
+9 "Checkpointing & Logging" 0.0 0.0 ellipse
+10 "Evaluation & Inference" 0.0 0.0 ellipse
+*arcs
+1 2 1.0
+2 3 1.0
+3 4 1.0
+3 5 1.0
+3 6 1.0
+4 10 1.0
+6 7 1.0
+7 8 1.0
+8 4 1.0
+8 5 1.0
+8 9 1.0
+10 3 1.0
